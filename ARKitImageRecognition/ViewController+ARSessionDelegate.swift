@@ -7,7 +7,7 @@ Session status management for `ViewController`.
 
 import ARKit
 
-extension ViewController: ARSessionDelegate {
+extension RHARViewController: ARSessionDelegate {
     
     // MARK: - ARSessionDelegate
     

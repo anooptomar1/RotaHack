@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2236B39521A0662900209A6B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2236B39421A0662900209A6B /* art.scnassets */; };
+		2249E8A821A0AA6C0000626A /* RHSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E8A721A0AA6C0000626A /* RHSplashViewController.swift */; };
 		224B2796219D8BEF00F9CBDD /* Antutu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 224B2795219D8BE900F9CBDD /* Antutu.mp4 */; };
+		22EE867A21A01EB500F33390 /* ARImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE867921A01EB500F33390 /* ARImageModel.swift */; };
+		22EE867D21A01FB700F33390 /* RHLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE867C21A01FB700F33390 /* RHLocationManager.swift */; };
+		22EE867F21A0268600F33390 /* RHHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE867E21A0268600F33390 /* RHHomeViewController.swift */; };
+		22EE868321A0445000F33390 /* ARProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE868221A0445000F33390 /* ARProductInfoView.swift */; };
 		3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */; };
-		3929C48E1E89EC2C00E00B60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929C48D1E89EC2C00E00B60 /* ViewController.swift */; };
+		3929C48E1E89EC2C00E00B60 /* RHARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929C48D1E89EC2C00E00B60 /* RHARViewController.swift */; };
 		3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3929C48F1E89EC2C00E00B60 /* Main.storyboard */; };
 		3929C4931E89EC2C00E00B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3929C4921E89EC2C00E00B60 /* Assets.xcassets */; };
 		39D8DC1B1E8ADAE600386B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */; };
@@ -19,10 +25,16 @@
 
 /* Begin PBXFileReference section */
 		11063F3B1EBE651B0033EE6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2236B39421A0662900209A6B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2249E8A721A0AA6C0000626A /* RHSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RHSplashViewController.swift; sourceTree = "<group>"; };
 		224B2795219D8BE900F9CBDD /* Antutu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Antutu.mp4; sourceTree = "<group>"; };
+		22EE867921A01EB500F33390 /* ARImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARImageModel.swift; sourceTree = "<group>"; };
+		22EE867C21A01FB700F33390 /* RHLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RHLocationManager.swift; sourceTree = "<group>"; };
+		22EE867E21A0268600F33390 /* RHHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RHHomeViewController.swift; sourceTree = "<group>"; };
+		22EE868221A0445000F33390 /* ARProductInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARProductInfoView.swift; sourceTree = "<group>"; };
 		3929C4881E89EC2C00E00B60 /* ARKitImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3929C48D1E89EC2C00E00B60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3929C48D1E89EC2C00E00B60 /* RHARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RHARViewController.swift; sourceTree = "<group>"; };
 		3929C4901E89EC2C00E00B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3929C4921E89EC2C00E00B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3929C4971E89EC2C00E00B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,8 +71,43 @@
 				3929C4971E89EC2C00E00B60 /* Info.plist */,
 				3929C48F1E89EC2C00E00B60 /* Main.storyboard */,
 				39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */,
+				2236B39421A0662900209A6B /* art.scnassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		22EE867821A01EA700F33390 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22EE867921A01EB500F33390 /* ARImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22EE867B21A01FAA00F33390 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				22EE867E21A0268600F33390 /* RHHomeViewController.swift */,
+				3929C48D1E89EC2C00E00B60 /* RHARViewController.swift */,
+				2249E8A721A0AA6C0000626A /* RHSplashViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		22EE868021A0268900F33390 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				22EE867C21A01FB700F33390 /* RHLocationManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		22EE868121A0444300F33390 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22EE868221A0445000F33390 /* ARProductInfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		3929C47F1E89EC2C00E00B60 = {
@@ -85,8 +132,11 @@
 		3929C48A1E89EC2C00E00B60 /* ARKitImageRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				22EE868121A0444300F33390 /* Views */,
+				22EE868021A0268900F33390 /* Utils */,
+				22EE867B21A01FAA00F33390 /* ViewControllers */,
+				22EE867821A01EA700F33390 /* Model */,
 				3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */,
-				3929C48D1E89EC2C00E00B60 /* ViewController.swift */,
 				C8C12A701F29277B00B011FE /* ViewController+ARSessionDelegate.swift */,
 				224B2795219D8BE900F9CBDD /* Antutu.mp4 */,
 				1488324B1EFC3EBF0043E0AB /* Additional View Controllers */,
@@ -143,9 +193,8 @@
 				TargetAttributes = {
 					3929C4871E89EC2C00E00B60 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = 443B3M49J3;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -174,6 +223,7 @@
 			files = (
 				39D8DC1B1E8ADAE600386B05 /* LaunchScreen.storyboard in Resources */,
 				3929C4931E89EC2C00E00B60 /* Assets.xcassets in Resources */,
+				2236B39521A0662900209A6B /* art.scnassets in Resources */,
 				224B2796219D8BEF00F9CBDD /* Antutu.mp4 in Resources */,
 				3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */,
 			);
@@ -186,10 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3929C48E1E89EC2C00E00B60 /* ViewController.swift in Sources */,
+				3929C48E1E89EC2C00E00B60 /* RHARViewController.swift in Sources */,
 				C41366B91EB80DD400EC054A /* StatusViewController.swift in Sources */,
+				2249E8A821A0AA6C0000626A /* RHSplashViewController.swift in Sources */,
 				C8C12A711F29277B00B011FE /* ViewController+ARSessionDelegate.swift in Sources */,
+				22EE867A21A01EB500F33390 /* ARImageModel.swift in Sources */,
+				22EE867D21A01FB700F33390 /* RHLocationManager.swift in Sources */,
+				22EE868321A0445000F33390 /* ARProductInfoView.swift in Sources */,
 				3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */,
+				22EE867F21A0268600F33390 /* RHHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,11 +384,11 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 443B3M49J3;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/ARKitImageRecognition/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rodeapps.com2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -349,11 +404,11 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 443B3M49J3;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/ARKitImageRecognition/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rodeapps.com2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
